@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header className={styles.header}>
       <img
-        src="\src\assets\portfolio.png"
+        src="..\..\assets\portfolio.png"
         alt="Logo do portfolio que é uma escrita na cor branco"
       />
 
