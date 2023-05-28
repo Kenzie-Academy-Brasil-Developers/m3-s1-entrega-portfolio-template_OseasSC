@@ -1,0 +1,31 @@
+.li__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  padding: 16px;
+
+  color: var(--color-white);
+}
+
+.git__icon {
+  width: 35px;
+  height: 35px;
+}
+
+.description {
+  font-size: var(--paragraph);
+}
+
+.link {
+  font-size: var(--link);
+
+  color: var(--color-purple);
+}
+
+.div__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90%;
+}

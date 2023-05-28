@@ -1,0 +1,43 @@
+:root {
+  --color-purple: #6880ff;
+  --color-purple-hover: #7c91ff;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --title-1: 3rem;
+  --title-2: 2.25rem;
+  --title-3: 2rem;
+  --label: 0.875rem;
+  --link: 1rem;
+  --paragraph: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+
+  box-sizing: border-box;
+}
+
+main {
+  margin: auto;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+
+  overflow-y: auto;
+
+  margin: 0;
+
+  background-color: #0c0c0c;
+
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

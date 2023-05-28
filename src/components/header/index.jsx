@@ -3,13 +3,13 @@ import styles from "./styles.module.css";
 
 export const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <img
         src="\src\assets\portfolio.png"
         alt="Logo do portfolio que é uma escrita na cor branco"
       />
 
-      <div>
+      <div className={styles.navigation}>
         <p>Sobre</p>
         <p>Stack</p>
         <p>Projeto</p>

@@ -1,0 +1,35 @@
+.container {
+  color: var(--color-white);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-left: 10px;
+}
+
+.mini__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  margin-top: 16px;
+  margin-bottom: 32px;
+  gap: 16px;
+}
+
+.mini__container li {
+  border: solid 1px var(--color-white);
+  border-radius: 25px;
+
+  width: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin: 0;
+  padding-left: 30px;
+  gap: 32px;
+}

@@ -1,4 +1,5 @@
 import { technologies } from "../../data/technologies.js";
+import styles from "./styles.module.css";
 
 const HTML = technologies[0];
 const CSS = technologies[1];
@@ -7,36 +8,52 @@ const REACT = technologies[3];
 
 export const CardHTML = () => {
   return (
-    <div>
-      <img src={HTML.img} alt="icone da tecnologia HTML;" />
+    <li className={styles.card}>
+      <img
+        className={styles.icon}
+        src={HTML.img}
+        alt="icone da tecnologia HTML;"
+      />
       <h2>{HTML.name}</h2>
-    </div>
+    </li>
   );
 };
 
 export const CardCSS = () => {
   return (
-    <div>
-      <img src={CSS.img} alt="icone da tecnologia CSS;" />
+    <li className={styles.card}>
+      <img
+        className={styles.icon}
+        src={CSS.img}
+        alt="icone da tecnologia CSS;"
+      />
       <h2>{CSS.name}</h2>
-    </div>
+    </li>
   );
 };
 
 export const CardJS = () => {
   return (
-    <div>
-      <img src={JS.img} alt="icone da tecnologia Javascript;" />
+    <li className={styles.card}>
+      <img
+        className={styles.icon}
+        src={JS.img}
+        alt="icone da tecnologia Javascript;"
+      />
       <h2>{JS.name}</h2>
-    </div>
+    </li>
   );
 };
 
 export const CardReact = () => {
   return (
-    <div>
-      <img src={REACT.img} alt="icone da tecnologia React;" />
+    <li className={styles.card}>
+      <img
+        className={styles.icon}
+        src={REACT.img}
+        alt="icone da tecnologia React;"
+      />
       <h2>{REACT.name}</h2>
-    </div>
+    </li>
   );
 };
