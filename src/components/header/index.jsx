@@ -1,7 +1,7 @@
 import { HeaderButton } from "../buttons";
 import styles from "./styles.module.css";
 
-import portfolio from "/assets/portfolio.png";
+import portfolio from "../../assets/portfolio.png";
 
 export const Header = () => {
   return (
