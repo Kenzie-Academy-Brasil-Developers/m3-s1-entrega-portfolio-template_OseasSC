@@ -1,5 +1,6 @@
 import { projects } from "../../data/projects.js";
 import styles from "./styles.module.css";
+import gitIcon from "../../assets/git-icon.png";
 
 const project1 = projects[0];
 const project2 = projects[1];
@@ -19,7 +20,7 @@ export const Project1 = () => {
 
       <img
         className={styles.git__icon}
-        src="\src\assets\git-icon.png"
+        src={gitIcon}
         alt="icone do GitHub, é a propria logo do GitHub."
       />
     </li>
@@ -38,7 +39,7 @@ export const Project2 = () => {
 
       <img
         className={styles.git__icon}
-        src="\src\assets\git-icon.png"
+        src={gitIcon}
         alt="icone do GitHub, é a propria logo do GitHub."
       />
     </li>
@@ -57,7 +58,7 @@ export const Project3 = () => {
 
       <img
         className={styles.git__icon}
-        src="\src\assets\git-icon.png"
+        src={gitIcon}
         alt="icone do GitHub, é a propria logo do GitHub."
       />
     </li>
@@ -76,7 +77,7 @@ export const Project4 = () => {
 
       <img
         className={styles.git__icon}
-        src="\src\assets\git-icon.png"
+        src={gitIcon}
         alt="icone do GitHub, é a propria logo do GitHub."
       />
     </li>

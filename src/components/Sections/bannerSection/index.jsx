@@ -1,6 +1,8 @@
 import { BannerInfoButton } from "../../buttons";
 import styles from "./styles.module.css";
 
+import banner from "../../assets/banner-img.png";
+
 export const Banner = () => {
   return (
     <section className={styles.container}>
@@ -16,7 +18,7 @@ export const Banner = () => {
 
       <img
         className={styles.banner__img}
-        src="\src\assets\banner-img.png"
+        src={banner}
         alt="imagem referente ao banner, consiste em um design de um monitor com referencias a codigos"
       />
     </section>
