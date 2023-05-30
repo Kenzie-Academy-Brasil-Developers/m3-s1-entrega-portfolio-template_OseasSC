@@ -15,8 +15,8 @@ export const FooterSection = () => {
         </div>
       </div>
       <div className={styles.rights__container}>
-        <p className={styles.right__side}>Todos os direitos reservados -</p>
-        <p className={styles.right__side}>José da Silva</p>
+        <p className={styles.rights}>Todos os direitos reservados -</p>
+        <p className={styles.name}>José da Silva</p>
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 import { BannerInfoButton } from "../../buttons";
 import styles from "./styles.module.css";
 
-import banner from "../../assets/banner-img.png";
+import banner from "../../../assets/banner-img.png";
 
 export const Banner = () => {
   return (

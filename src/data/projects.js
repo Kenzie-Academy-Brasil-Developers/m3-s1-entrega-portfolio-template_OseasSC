@@ -1,5 +1,4 @@
-export const projects = [
-  {
+export const projects = [{
     name: "Projeto 1",
     description: "Atividade Props Card Pessoas",
   },
@@ -9,10 +8,10 @@ export const projects = [
   },
   {
     name: "Projeto 3",
-    description: "Descrição do projeto",
+    description: "Atividade React",
   },
   {
     name: "Projeto 4",
-    description: "Descrição do projeto",
+    description: "Entrega React",
   },
 ];
